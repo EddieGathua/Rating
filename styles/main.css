@@ -1,0 +1,133 @@
+:root {
+  --spacing: 0.25rem;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+body {
+  background-color: #121417;
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  height: 100vh;
+}
+
+body .rating-container {
+  background-color: #252d37;
+  padding: 20px;
+  width: 375px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  border-radius: 20px;
+}
+
+body .rating-container .top img {
+  background-color: #363c45;
+  padding: 8px;
+  border-radius: 100%;
+}
+
+body .rating-container .title h1 {
+  color: white;
+}
+
+body .rating-container .title p {
+  color: #959eac;
+  font-size: 15px;
+}
+
+body .rating-container .rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .rating-container .rating .rate {
+  background-color: #363c45;
+  color: #959eac;
+  border-radius: 50%;
+  padding: 8px 12px 6px 12px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+body .rating-container .rating .rate:hover {
+  background-color: #fb7413;
+  color: #ffffff;
+}
+
+body .rating-container .rating .active {
+  background-color: #fb7413;
+  color: #ffffff;
+}
+
+body .rating-container .submit button {
+  background-color: #fb7413;
+  width: 100%;
+  border: none;
+  padding: 8px;
+  border-radius: 20px;
+  color: white;
+  font-weight: 700;
+}
+
+body .rating-container .submit button:hover {
+  background-color: #ffffff;
+  color: #fb7413;
+}
+
+body .thank-you {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  padding: 20px;
+  width: 375px;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  border-radius: 20px;
+  background-color: #252d37;
+  padding: 20px;
+  display: none;
+}
+
+body .thank-you .show {
+  display: block;
+}
+
+body .thank-you h2 {
+  color: white;
+}
+
+body .thank-you p {
+  color: #959eac;
+  font-size: 15px;
+}
+
+body .thank-you .details {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+}
+
+body .attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+body .attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=main.css.map */
